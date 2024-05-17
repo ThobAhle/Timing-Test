@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #heroImage{
+            background-image: url('assets/img/hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .description, .adoption-form, .gallery, .cookie-policy {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input, select {
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* din cool gallery css her */
+        .gallery {
+         
+        }
+      
+
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cookie-policy{
+           position: fixed;
+           top: 0px;
+           left: 0px;
+           
+           min-width:  100%;
+           min-height: 100vh;
+           background-color: rgba(2,2,2,0.5);
+           margin: 0;
+           padding: 0;
+           transition: 200ms;
+
+        }
+
+
+        .cookie-policy-container{
+           
+            background-color: #ddd;
+            padding: 2em;
+           margin-top: 6em;
+
+        }
+
+
+        .cookie-policy-container form {
+            padding: 4em;
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+        .cookie-policy-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .cookie-policy-container button {
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cookie-policy-container button:hover {
+            background-color: #0056b3;
+           
+        }
+
+        .hidden{
+            min-height: none;
+            height: 0px;
+             top: 100vh;
+      transition: 800ms;
+        }
+
