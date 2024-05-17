@@ -35,13 +35,16 @@
         </section>
     
         <section id="gallery" class="gallery">
-           placer galleri her
-         
+            <div class='item' data-pos='0'><img src="assets/img/cat1.webp"></div>
+            <div class='item' data-pos='1'><img src="assets/img/cat2.jpg"></div>
+            <div class='item' data-pos='2'><img src="assets/img/cat3.webp"></div>
+            <div class='item' data-pos='3'><img src="assets/img/cat4.jpg"></div>
+            <div class='item' data-pos='4'><img src="assets/img/cat5.jpg"></div>
         </section>
     
         <section id="adoption" class="adoption-form">
             <h2>Adoptionsformular</h2>
-            <form action="#" method="post">
+            <form id="adoptionForm" action="#" method="post">
                 <label for="name">Navn</label>
                 <input type="text" id="name" name="name" >
     
@@ -68,7 +71,7 @@
             </form>
         </section>
     
-        <section id="cookie-policy" class="cookie-policy">
+        <section id="cookie-policy" class="cookie-policy hidden">
 
             <section class="cookie-policy-container">
             <h2>Cookie Politik</h2>
@@ -83,7 +86,7 @@
                 <label>
                     <input type="checkbox" name="cookies" value="marketing"> Marketing Cookies
                 </label>
-                <button type="submit">Gem Indstillinger</button>
+                <button type="button" id="accept-cookies">Gem Indstillinger</button>
             </form>
         </section>
         </section>
